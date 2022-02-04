@@ -16,10 +16,10 @@ Multitask learning (MTL) has recently gained a lot of popularity as a learning p
 ## Usage
 
 In the main.py:
-	- Configure the dataroot, train/test data saving path, model parameter saving path, and model loading path (if you want to load a backbone)
-	- Specify the model you would like to train
-	- Set the hyperparameters (optimizer, scheduler, batch size, epochs)
-	- Run main.py
+- Configure the dataroot, train/test data saving path, model parameter saving path, and model loading path (if you want to load a backbone)
+- Specify the model you would like to train
+- Set the hyperparameters (optimizer, scheduler, batch size, epochs)
+- Run main.py
 
 The preprocessed NYUv2 dataset can be found [here](https://www.dropbox.com/sh/86nssgwm6hm3vkb/AACrnUQ4GxpdrBbLjb6n-mWNa?dl=0).
 

@@ -7,7 +7,7 @@ PyTorch implementation of the paper: "Attentive Task Interaction Network for Mul
 
 ## Citation
 
-You can find the preprint of our paper on arXiv. (link "arXiv" with the following url: https://arxiv.org/abs/2201.10649)
+You can find the preprint of our paper on [arXiv](https://arxiv.org/abs/2201.10649).
 
 ## Abstract
 
@@ -21,10 +21,10 @@ In the main.py:
 	- Set the hyperparameters (optimizer, scheduler, batch size, epochs)
 	- Run main.py
 
-The preprocessed NYUv2 dataset can be found here. (link "here" with the following url: "https://www.dropbox.com/sh/86nssgwm6hm3vkb/AACrnUQ4GxpdrBbLjb6n-mWNa?dl=0")
+The preprocessed NYUv2 dataset can be found [here](https://www.dropbox.com/sh/86nssgwm6hm3vkb/AACrnUQ4GxpdrBbLjb6n-mWNa?dl=0).
 
 NOTE: To save time during experimentation, we would load a half-trained MTAN backbone when training ATI-Net, and then proceed with the second half of the training. This is effectively equivalent to the training stretegy specified in the paper. However, this allows us to experiment with ATI-Net much faster since we don't need to restart training every experiment.
 
 ## References
 
-Our codebase builds upon and borrows elements from the public implimentation of MTAN (link "MTAN" with the following url: https://github.com/lorenmt/mtan). Particularly, the trainer, dataloaders, and baseline models are taken from there. We also borrow elements for the distillation modules from the following MTL repo. (link "MTL repo" with the following url: https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorch)
+Our codebase builds upon and borrows elements from the public implimentation of [MTAN](https://github.com/lorenmt/mtan). Particularly, the trainer, dataloaders, and baseline models are taken from there. We also borrow elements for the distillation modules from the following [MTL repo](https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorch).

@@ -1,7 +1,7 @@
 # ATI-Net: Attentive Task Interaction Network for Multi-Task Learning
 
 
-PyTorch implementation of the paper: "Attentive Task Interaction Network for Multi-Task Learning"
+PyTorch implementation of the paper: "Attentive Task Interaction Network for Multi-Task Learning".
 
 <center><img src="https://github.com/Armanfard-Lab/ATI-Net/blob/main/network_fig.png" alt="Overview" width="800" align="center"></center>
 
